@@ -13,7 +13,13 @@ class e-learning
       {
            name=name;
            }
+
       int getId();
+
+      int getId()
+      {
+          return id;
+          }
       string getName();
       };
       int main()

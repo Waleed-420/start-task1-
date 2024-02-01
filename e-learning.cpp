@@ -6,10 +6,21 @@ class e-learning
               int id;
               string name;
       public:
-      void setId();
-      void setName();
-      int getId();
-      string getName();
+      void setId(int id)
+      { id=id;
+           }
+      void setName(string name)
+      {
+           name=name;
+           }
+      int getId()
+      {
+          return id;
+          }
+      string getName()
+      {
+             return name;
+             }
       };
       int main()
       {

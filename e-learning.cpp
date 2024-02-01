@@ -21,6 +21,9 @@ class e-learning
       {
              return name;
              }
+      void setName();
+      int getId();
+      string getName();
       };
       int main()
       {
